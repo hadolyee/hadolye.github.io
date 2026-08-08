@@ -1663,14 +1663,6 @@ input, select, textarea {
     padding-bottom: 1rem;   /* Moves the line farther above the text */
 }
 
-<span class="image main">
-    <img
-        src="https://deadbydaylight.com/static/39a9aaa16f0ba1ddc4115b148999e35e/691d2/Horizontal_1080x1920_aa8e1256c9.png"
-        alt="A dark Dead by Daylight trial"
-        style="width: 60%; height: auto;"
-    />
-</span>
-
 /* Mobile navigation fix */
 @media screen and (max-width: 736px) {
 
@@ -1694,6 +1686,17 @@ input, select, textarea {
 		width: 100%;
 		min-width: 0;
 		box-sizing: border-box;
+		font-size: 0.7rem;
+		letter-spacing: 0.1rem;
+		padding: 0 0.5rem;
+		white-space: nowrap;
 	}
-
 }
+
+<span class="image main">
+    <img
+        src="https://deadbydaylight.com/static/39a9aaa16f0ba1ddc4115b148999e35e/691d2/Horizontal_1080x1920_aa8e1256c9.png"
+        alt="A dark Dead by Daylight trial"
+        style="width: 60%; height: auto;"
+    />
+</span>
