@@ -1671,26 +1671,43 @@ input, select, textarea {
     />
 </span>
 
-/* Mobile Navigation */
+/* Mobile Navigation Fix */
 @media screen and (max-width: 736px) {
 
-	#header nav ul {
-		display: flex;
-		flex-direction: column;
+	#header {
 		width: 100%;
+	}
+
+	#header nav {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	#header nav ul {
+		display: flex !important;
+		flex-direction: column !important;
+		width: 100% !important;
+		max-width: 100% !important;
+		margin: 0 !important;
+		padding: 0 !important;
 	}
 
 	#header nav ul li {
-		display: block;
-		width: 100%;
+		display: block !important;
+		width: 100% !important;
+		max-width: 100% !important;
+		margin: 0 !important;
+		padding: 0 !important;
 	}
 
 	#header nav ul li a {
-		display: block;
-		width: 100%;
-		box-sizing: border-box;
-		padding: 0.75em 1em;
-		font-size: 0.8em;
+		display: block !important;
+		width: 100% !important;
+		max-width: 100% !important;
+		box-sizing: border-box !important;
+		padding: 0.75em 1em !important;
+		font-size: 0.8em !important;
+		white-space: normal !important;
 	}
 
 }
