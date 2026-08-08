@@ -1670,3 +1670,21 @@ input, select, textarea {
         style="width: 60%; height: auto;"
     />
 </span>
+
+/* Mobile Navigation */
+@media screen and (max-width: 736px) {
+
+	#header nav ul {
+		flex-wrap: wrap;
+	}
+
+	#header nav ul li {
+		flex: 1 1 50%;
+	}
+
+	#header nav ul li a {
+		width: 100%;
+		padding: 0.75em 0.5em;
+		font-size: 0.8em;
+	}
+}
