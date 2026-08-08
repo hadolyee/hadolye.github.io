@@ -1675,16 +1675,22 @@ input, select, textarea {
 @media screen and (max-width: 736px) {
 
 	#header nav ul {
-		flex-wrap: wrap;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
 	}
 
 	#header nav ul li {
-		flex: 1 1 50%;
+		display: block;
+		width: 100%;
 	}
 
 	#header nav ul li a {
+		display: block;
 		width: 100%;
-		padding: 0.75em 0.5em;
+		box-sizing: border-box;
+		padding: 0.75em 1em;
 		font-size: 0.8em;
 	}
+
 }
